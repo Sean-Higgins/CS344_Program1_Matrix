@@ -1,0 +1,69 @@
+matrix.bash ideas.
+
+A bash shell program designed to perform basic matrix operations. The input will come
+either as a file or a stdin stream. The input is whole numbers deliminated by tabs into
+a rectangular matrix.
+
+The general format of the matrix bash file is as follows:
+	matrix OPERATION [ARGUMENT] ...
+
+Specifications: The matrix bash file must perform the following operations:
+	dims (matrix dimensions), transpose (matrix transposing), mean (matrix mean),
+	add (matrix addition), and multiply (matrix multiplication)
+
+	The usage of these functions is as follows:
+	
+		matrix dims [MATRIX]
+		matrix transpose [MATRIX]
+		matrix mean [MATRIX]
+		matrix add MATRIX_LEFT MATRIX_RIGHT
+		matrix multiply MATRIX_LEFT MATRIX_RIGHT
+	
+
+
+Pseudocode:
+
+	Matrix Valididator (Essential component for the entire bash shell)
+
+	int rows = 0
+	int collums = 0
+	int errCode = 0			# I shall use the code of 0 to mean all is well.
+	
+	char c = ''
+	str substr = ""
+	int index = 0
+	
+	# Goes through the entire list of numbers deliminated by tabs
+	# The outer loop counts rows
+	while (index < len(MATRIX)):
+		# The inner loop counts the number of elements in each rows
+		# i.e. the number of columns. The number of elements per row MUST
+		# be consistant throughout the rows.
+		c = MATRIX[index]
+		while (c != '/n'):
+			
+			if (c == '/n'):
+			
+			
+	
+	Alternate Implementation:
+	
+	int rows = 0
+	int collums = 0
+	int errCode = 0
+	
+	int index = 0
+	
+	while
+	str colStr = MATRIX.split(/t)	#
+	
+	
+	while 
+		
+		
+
+	matrix dims [MATRIX]
+	
+	# Calls the valididator to make sure the matrix is valid.
+	valid [MATRIX]
+	
